@@ -21,7 +21,7 @@ jobs:
           - { image: 'base-r2u-22.04', version: 'v1.0.0', moretags: ',ghcr.io/openpipelines-bio/base-r2u-22.04:v1,ghcr.io/openpipelines-bio/base-r2u-22.04:latest' }
     
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
 
       - name: Set up QEMU
         uses: docker/setup-qemu-action@v1
