@@ -38,7 +38,7 @@ jobs:
       
       - name: Build and push
         id: docker_build
-        uses: docker/build-push-action@v2
+        uses: docker/build-push-action@v4
         with:
           build-args: GITHUB_PAT=${{ secrets.GTHB_PAT }}
           tags: ghcr.io/openpipelines-bio/${{ matrix.config.image }}:${{ matrix.config.version }}${{ matrix.config.moretags }}
