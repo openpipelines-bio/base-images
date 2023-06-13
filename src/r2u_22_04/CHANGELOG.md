@@ -1,4 +1,4 @@
-# `ghcr.io/openpipelines-bio/base-r:v1.0.0`
+# `ghcr.io/openpipelines-bio/base/r2u_22_04:1.0.0`
 
 * Initial release. An R2U 22.04 image with the following packages installed:
   - R release
